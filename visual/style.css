@@ -1,0 +1,435 @@
+body {
+
+    font-family: Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    height: 100%;
+}
+
+/*--------------------------------------------footer*/
+
+footer {
+    background-color: #01524b;
+}
+
+.social-links li a i {
+    width: 35px;
+    height: 35px;
+    padding: 13px 0;
+    border-radius: 50%;
+    font-size: 16px;
+    line-height: 7px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #59ba91;
+    background: #ffffff;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #77C9D4;
+}
+
+.footer-links {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.footer-row {
+    display: block!important;
+}
+
+.header-text {
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/*--------------------------------------------margins, paddings*/
+
+.container-fluid {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    position: static;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+/*-------------------------------------------- nav*/
+
+.nav-item {
+    display: inline;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+
+}
+
+.nav-item:hover {
+    color: #679187;
+}
+
+.nav-link {
+    margin-top: 0;
+    margin-bottom: 0;
+    display: inline;
+    color: #ffffff;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+
+.nav-link:hover {
+    color: #77C9D4;
+}
+
+.heading-links {
+    background-color: #01524b;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/*--------------------------------------- image and cta homepage */
+
+.container-image {
+    height: 40vh;
+    width: 100vw;
+    background: url('../visual/images/Liffey river reflection_index.jpg');
+   background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-cta h1 i {
+    font-size: 200%;
+    color: #59ba91;
+      background-color: #ffffff;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    text-rendering: auto;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+hr {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #fca301;
+}
+
+.main-cta {
+    font-size: 3rem;
+    background-color: rgba(103, 145, 135, 0.5);
+    color: #01524b;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    left: 0;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.btn-secondary {
+    margin-top: 30px;
+    background-color: #77C9D4;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 0;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+
+.btn-secondary:hover {
+    background-color: #1f7fc8;
+    color: #ffffff;
+}
+
+/*--------------------------------------------day page*/
+
+.container-image-day {
+    height: 40vh;
+    width: 100vw;
+    background: url('../visual/images/Grafton st area_day walks.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*--------------------------------------------night page*/
+
+.container-image-night {
+    height: 40vh;
+    width: 100vw;
+    background: url('../visual/images/happeny bridge at dusk_night walks.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*--------------------------------------------day and night pages*/
+
+.card-deck {
+    margin: 50px;
+    padding: 0px;
+    display: flex;
+    position: relative;
+
+}
+
+.card-deck .card {
+    display: flex;
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.card {
+    background-color: rgba(103, 145, 135, 0.5);
+}
+
+.bg-color-block-intro-day {
+    position: relative;
+    background-color: rgba(103, 145, 135, 0.7);
+    width: 90%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.bg-color-block-intro-night {
+    position: relative;
+    background-color: rgba(103, 145, 135, 0.5);
+    width: 90%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.card-title {
+    margin-bottom: .75rem;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 5px;
+    background-color: #59ba91;
+     border-radius: 10px;
+}
+
+.card-text {
+    font-size: 1rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 150%;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 30px;
+    margin-top: 15px;
+    padding-top: 15px;
+    color: #59ba91;
+    background-color: #ffffff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-rendering: auto;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+}
+
+.nav-link-btn {
+ margin-top: 0;
+    margin-bottom: 0;
+    display: inline;
+    color: #ffffff;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+
+.nav-link-btn:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*--------------------------------------------contact page*/
+
+.container-image-contact {
+     height: 40vh;
+    width: 100vw;
+    background: url('../visual/images/Docks and boat_contact.jpg');
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-mission {
+    display: block;
+    position: relative;
+    top: 20%;
+    width: 100%;
+}
+
+.row-day {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+}
+
+.bg-color-block-about-us {
+    background-color: rgba(103, 145, 135, 0.7);
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+.block-contact {
+    background-color: rgba(103, 145, 135, 0.5);
+    margin: 10px;
+}
+
+.block-contact-mission {
+    background-color: rgba(103, 145, 135, 0.7);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    margin-left: 15px;
+}
+
+.block-contact-mission p {
+    font-size: 1.5rem;
+    line-height: 150%
+}
+
+.container {
+    width: 100%;
+    height: 90vh;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.contact-heading {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    font-size: 100%;
+    color: #ffffff;
+}
+
+p {
+    font-size: 1rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 150%;
+}
+
+
+button {
+    margin: 20px;
+    font-size: 1.5rem !important;
+    padding: 10px 20px !important;
+}
+
+.btn-contact {
+    margin-top: 30px;
+    background-color: #77C9D4;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 0;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+
+.btn-contact:hover {
+    background-color: #1f7fc8;
+    color: #ffffff;
+}
+
+.btn-contact:click {
+    background-color: #1f7fc8;
+    color: #000;
+}
+
+.form-group {
+    width: 90%;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 0px;
+    margin-left: 40px;
+}
+
+
+.form-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 15px;

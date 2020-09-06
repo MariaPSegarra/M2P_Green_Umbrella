@@ -248,21 +248,6 @@ hr {
     background-color:#01524b;
 }
 
-.bg-color-block-intro-day {
-    position: relative;
-    background-color: rgba(103, 145, 135, 0.7);
-    width: 90%;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-
-.bg-color-block-intro-night {
-    position: relative;
-    background-color: rgba(103, 145, 135, 0.5);
-    width: 90%;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
 
 .card-title {
     margin-bottom: .75rem;
@@ -346,11 +331,10 @@ hr {
     width: 100%;
 }
 
-.row-day {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0px;
-    padding: 0px;
+.row-day-night {
+    display: block;
+    position: relative;
+    width: 100%;
 }
 
 .bg-color-block-about-us {

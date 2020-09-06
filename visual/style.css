@@ -12,7 +12,7 @@ body {
 /*--------------------------------------------footer*/
 
 footer {
-    background-color: #01524b;
+    background-color: #00674C;
 }
 
 .social-links li a i {
@@ -34,7 +34,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #77C9D4;
+    background: #c2c2c2;
 }
 
 .footer-links {
@@ -96,11 +96,11 @@ footer {
 
 
 .nav-link:hover {
-    color: #77C9D4;
+    color: #c2c2c2;
 }
 
 .heading-links {
-    background-color: #01524b;
+    background-color: #00674C;
 }
 
 ul {
@@ -150,22 +150,22 @@ hr {
 
 .main-cta {
     font-size: 3rem;
-    background-color: rgba(103, 145, 135, 0.5);
-    color: #01524b;
+    background-color: #01524b;
+    color: #ffffff;
     padding-bottom: 20px;
     padding-top: 20px;
     padding-left: 100px;
     padding-right: 100px;
     left: 0;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 
 .btn-secondary {
     margin-top: 30px;
-    background-color: #77C9D4;
+    background-color: #f8b600;
     color: #ffffff;
     border-radius: 10px;
     border: 0;
@@ -177,7 +177,7 @@ hr {
 
 
 .btn-secondary:hover {
-    background-color: #1f7fc8;
+    background-color: #f7a400;
     color: #ffffff;
 }
 
@@ -235,7 +235,7 @@ hr {
 }
 
 .card {
-    background-color: rgba(103, 145, 135, 0.5);
+    background-color:#01524b;
 }
 
 .bg-color-block-intro-day {
@@ -305,6 +305,12 @@ hr {
 .nav-link-btn:hover {
     color: #ffffff;
     text-decoration: none;
+}
+
+.card-inner-block {
+   background-color: #59ba91; 
+   color: #ffffff;
+   padding: 10px;
 }
 
 /*--------------------------------------------contact page*/
@@ -397,7 +403,7 @@ button {
 
 .btn-contact {
     margin-top: 30px;
-    background-color: #77C9D4;
+    background-color: #f8b600;
     color: #ffffff;
     border-radius: 10px;
     border: 0;
@@ -409,12 +415,12 @@ button {
 
 
 .btn-contact:hover {
-    background-color: #1f7fc8;
+    background-color: #f7a400;
     color: #ffffff;
 }
 
 .btn-contact:click {
-    background-color: #1f7fc8;
+    background-color: #f7a400;
     color: #000;
 }
 
@@ -433,3 +439,4 @@ button {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-right: 15px;
+

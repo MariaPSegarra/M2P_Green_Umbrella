@@ -1,4 +1,37 @@
-/*--------------------------------------------walk one - landmarks*/
+/*--------------------------------------------All walks*/
+
+.btn-booking {
+    margin-top: 30px;
+    background-color: #f8b600;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 0;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+
+.btn-booking:hover {
+    background-color: #f7a400;
+    color: #ffffff;
+}
+
+.btn-booking:click {
+    background-color: #f7a400;
+    color: #000;
+}
+
+div #map {
+    min-height: 360px;
+    }
+
+div #map2 {
+    min-height: 360px;
+    }
+
+/*--------------------------------------------booking page*/
 
 .container-image-walk1 {
     height: 40vh;
@@ -14,5 +47,9 @@
     justify-content: center;
 }
 
-div #map {
-    min-height: 360px;}
+.card-inner-booking {
+   background-color: #59ba91; 
+   color: #ffffff;
+   padding: 10px;
+   margin:20px;
+}

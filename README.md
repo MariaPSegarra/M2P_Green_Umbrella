@@ -57,6 +57,7 @@ HTML, CSS and JS knowledge comes mostly from the Code Institute Course Modules.
 ## Testing
 
 Extensive testing in all screen sizes has been done all throuhout the duration of the project.
+
 Both forms, Contact and Booking has been thoroughly tested.
 All added funtionality too.
 
@@ -66,8 +67,13 @@ When I introduced the second map, the first map stopped showing on the page.
 Same both for both and one workd and the other didn't.
 I finally separated the JS funtions and put them on different files and it all worked well.
 
+* After deployment all css "broke"
+* Also I've problems rendering the maps. Even though I authorised the new deployment URL.
+
 ## Deployment
 
 I used [Gitpod](https://gitpod.io/) during the whole project.
+For both development and deployment.
+The project is live and hosted in Github pages.
 
 

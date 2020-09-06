@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		type="text/css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		type="text/css" />
+	<link rel="stylesheet" href="visual/style.css" type="text/css" />
+	<link rel="stylesheet" href="visual/walks.css" type="text/css" />
+	<script type="text/javascript" src="js/jquery-3.5.1.js"></script>
+
+	<title>Walk the city with day light | Meet Dublin</title>
+
+</head>
+
+<body>
+	<header class="container-fluid">
+		<div class="heading-links">
+			<div class="row no-gutters">
+
+				<div class="col-12">
+					<nav class="navbar navbar-light">
+
+						<ul class="navbar">
+							<li class="nav-item">
+								<a class="nav-link" href="index.html">Home</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" href="day.html">Day Walk</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="night.html">Night Walk</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="contact_about.html">Contact</a>
+							</li>
+
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+
+	</header>
+
+	<!--Image with intro-->
+
+	<section class="container-image-day">
+		<div class="row row-day">
+			<div class="col-12">
+
+				<!--Intro block start-->
+				<div class="row">
+					<div class="col-12 bg-color-block-intro-day">
+
+						<div class="row">
+							<div class="col-12">
+								<h3 class="contact-heading">- Meet Dublin in the Day -</h3>
+							</div>
+						</div>
+						<p class="header-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam<br>
+							nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. <br>
+                            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit<br>
+                            lobortis nisl ut aliquip ex ea commodo consequat.</p>
+							<p><b><span style="color: #fca301";>IMPORTANT</b> </span>- Our day walk tour starts every
+								morning at 11 am.</p>
+
+					</div>
+				</div>
+	</section>
+
+
+	<!--tour cards 1 with map-->
+
+	<section class="card-deck">
+		<div class="card">
+			<div class="row">
+				<div class="col-12">
+					<i class="fa fa-university" aria-hidden="true"></i>
+				</div>
+			</div>
+			<div class="card-body">
+				<h5 class="card-title">Landmarks</h5>
+
+				<p class="card-text">Get ready for some serious walking!<br>
+                If you enjoy architecture and the open air this is your tour! <br>
+                       Walls can't talk but I can tell you the best kept secrets Dublin has to offer.
+                       </p>
+					<p class="card-inner-block"> <i class="fa fa-certificate" aria-hidden="true"></i> <br><br>
+                WALKS ARE FREE!<br>
+                We ONLY accept donations if you LOVE the walk.</p>
+
+			</div>
+			<div>
+				<button type="submit" class="btn btn-secondary"><a class="nav-link-btn" href="booking.html " target="blank">Book your walk </a></button>
+			</div>
+
+		</div>
+
+		<div class="card">
+			<div class="row">
+				<div class="col-12">
+					<i class="fa fa-map aria-hidden="true"></i>
+				</div>
+			</div>
+			<div class="card-body">
+				<h5 class="card-title">What will you see?</h5>
+
+				<div id="map"></div>
+
+			</div>
+
+
+		</div>
+
+		</div>
+
+		</div>
+
+		</div>
+		</div>
+
+	</section>
+
+	<!--footer-->
+	<footer class="container-fluid">
+
+		<div class="row">
+			<div class="col-12">
+				<div class="footer-links">
+					<ul class="list-inline social-links">
+						<li class="list-inline-item">
+							<a target="_blank" href="#">
+								<i class="fa fa-facebook" aria-hidden="true"></i>
+								<span class="sr-only">Facebook</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a target="_blank" href="#">
+								<i class="fa fa-twitter" aria-hidden="true"></i>
+								<span class="sr-only">Twitter</span>
+							</a>
+						</li>
+
+						<li class="list-inline-item">
+							<a target="_blank" href="#">
+								<i class="fa fa-pinterest" aria-hidden="true"></i>
+								<span class="sr-only">Pinterest</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a target="_blank" href="#">
+								<i class="fa fa-instagram" aria-hidden="true"></i>
+								<span class="sr-only">Instagram</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a target="_blank" href="#">
+								<i class="fa fa-youtube" aria-hidden="true"></i>
+								<span class="sr-only">YouTube</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script
+		src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+	</script>
+	<script async defer
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC30sdgfOA7MpkCXMKRbom5PSNWJQveyK4&callback=initMap"
+		type="text/javascript"></script>
+	<script src="js/map.js"></script>
+</body>
+
+</html>

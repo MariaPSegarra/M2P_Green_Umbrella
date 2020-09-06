@@ -96,6 +96,7 @@ footer {
 .nav-link {
     margin-top: 0;
     margin-bottom: 0;
+    padding: 10px;
     display: inline;
     color: #ffffff;
     transition: all 0.35s ease-in-out;
@@ -104,6 +105,9 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 }
 
+.navbar {
+    padding: 5px;
+}
 
 .nav-link:hover {
     color: #c2c2c2;
@@ -228,7 +232,7 @@ hr {
 /*--------------------------------------------day and night pages*/
 
 .card-deck {
-    margin: 50px;
+    margin: 15px;
     padding: 0px;
     display: flex;
     position: relative;

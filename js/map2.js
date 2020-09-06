@@ -1,8 +1,7 @@
-
-//funtion MAP 1 - Landmarks
+//funtion MAP 2 - pubs
 
 function initMap() {
-    var map = new google.maps.Map(document.getElementById("map"), {
+    var map = new google.maps.Map(document.getElementById("map2"), {
         zoom: 3,
         center: {
             lat: 53.3498,
@@ -12,14 +11,13 @@ function initMap() {
 
     var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-
     var locations = [
-        { lat: 53.3395, lng: -6.2715 },
-        { lat: 53.3435, lng: -6.2711 },
-        { lat: 53.3419, lng: -6.3098 },
-        { lat: 53.3440, lng: -6.2566 },
-        { lat: 53.3493, lng: -6.2611 },
-        { lat: 53.3429, lng: -6.2674 }
+        { lat: 53.3449326, lng: -6.2763323 }, 
+        { lat: 53.340665304, lng: -6.257665636 }, 
+        { lat: 53.339498642, lng: -6.258665632 },
+        { lat: 53.3486, lng: -6.2667 },
+        { lat: 	53.3438996456, lng: -6.26089632928 },
+        { lat: 53.3451827106, lng: -6.26744694921 },
     ];
 
     var markers = locations.map(function(location, i) {
@@ -30,4 +28,4 @@ function initMap() {
     });
 
     var markerCluster = new MarkerClusterer(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
-    }
+    }  

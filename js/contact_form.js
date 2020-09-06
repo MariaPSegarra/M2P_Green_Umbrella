@@ -1,4 +1,13 @@
  $(document).ready(function() {
+       $("#inputName").click(function () {
+        $("#inputName").attr("placeholder", "");
+    });
+       $("#inputEmail").click(function () {
+        $("#inputEmail").attr("placeholder", "");
+    });
+        $("#TextArea").click(function () {
+        $("#TextArea").attr("placeholder", "");
+    });
  $(".btn-contact").click(function() {
         $(".btn-contact").text("Message Sent");
    });

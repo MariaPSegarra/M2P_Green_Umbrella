@@ -13,7 +13,7 @@
 	<link rel="stylesheet" href="visual/style.css" type="text/css">
 	<link rel="stylesheet" href="visual/walks.css" type="text/css">
 	<script type="text/javascript" src="js/jquery-3.5.1.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
 	<script type="text/javascript">
 		(function(){
       emailjs.init("user_Cle9PXmSd6ngKYIrsim77");
@@ -79,14 +79,14 @@
 					<div class="form-row">
 						<div class="form-group col-md-10">
 							<label for="inputEmail"></label>
-							<input type="email" name="bemail" class="form-control" id="inputEmail" placeholder="Email" required>
+							<input type="email" name="bemail" class="form-control" id="inputEmail" placeholder="Email" required onblur="validateEmail(this);">
                                     </div>
 						</div>
 						<div class="form-row">
 							<div class="form-group col-md-10">
-								<label for="inputWalk"></label> <select id="inputWalk" class="form-control" name="walk"required>
+								<label for="inputWalk"></label>
+								<select id="inputWalk" class="form-control" name="walk" required>
                     <option selected>Choose your walk</option>
-                    <option value="0">&nbsp</option>
                         <option value="Day walk">Day walk</option>
                         <option value="Night walk">Night walk</option>
 
@@ -97,8 +97,8 @@
 						<div class="form-row">
 							<div class="form-group col-md-10">
 								<label for="inputNumber"></label>
-								<input type="number" name="bnumber" class="form-control" id="inputNumber" placeholder="People (10 max)" required>
-                        
+								<input type="number" name="bnumber" class="form-control" id="inputNumber" placeholder="How many?" required>
+
 							</div>
 
 							</div>
@@ -108,7 +108,7 @@
 									<input type="date" placeholder="Choose date" format="dd/mm/yyyy" id="inputDate" class="form-control" name="bdate" required>
 							</div>
 								</div>
-                            
+
 								<div class="form-row">
 									<div class="form-group col-md-10">
 										<label for="TextArea">&nbsp</label>
@@ -133,16 +133,18 @@
 					<h5 class="card-title">- KNOW MORE BEFORE YOU BOOK -</h5>
 				</div>
 			</div>
-            <div>
-			<p class="card-inner-booking"> <i class="fa fa-users" aria-hidden="true"></i>  SMALL GROUPS <br><br>
+			<div>
+				<p class="card-inner-booking"> <i class="fa fa-users" aria-hidden="true"></i> SMALL GROUPS <br><br>
 			For a better, more personal experience.</p>
 
-			<p class="card-inner-booking"> <i class="fa fa-heart" aria-hidden="true"></i>  FRIENDLY TOUR GUIDES <br><br>
+					<p class="card-inner-booking"> <i class="fa fa-heart" aria-hidden="true"></i> FRIENDLY TOUR GUIDES
+						<br><br>
             Our objective is that you all have a great time. </p>
 
-			<p class="card-inner-booking"> <i class="fa fa-star" aria-hidden="true"></i>  AMAZING EXPERIENCE <br><br>
+						<p class="card-inner-booking"> <i class="fa fa-star" aria-hidden="true"></i> AMAZING EXPERIENCE
+							<br><br>
 				If you don't love your walk, you don't donate. </p>
-        </div>
+			</div>
 		</div>
 	</section>
 

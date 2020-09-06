@@ -66,6 +66,16 @@ footer {
     margin-left: 0;
 }
 
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.main-row  {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
 /*-------------------------------------------- nav*/
 
 .nav-item {
@@ -86,6 +96,7 @@ footer {
 .nav-link {
     margin-top: 0;
     margin-bottom: 0;
+    padding: 10px;
     display: inline;
     color: #ffffff;
     transition: all 0.35s ease-in-out;
@@ -94,6 +105,9 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 }
 
+.navbar {
+    padding: 5px;
+}
 
 .nav-link:hover {
     color: #c2c2c2;
@@ -218,7 +232,7 @@ hr {
 /*--------------------------------------------day and night pages*/
 
 .card-deck {
-    margin: 50px;
+    margin: 15px;
     padding: 0px;
     display: flex;
     position: relative;
@@ -238,21 +252,6 @@ hr {
     background-color:#01524b;
 }
 
-.bg-color-block-intro-day {
-    position: relative;
-    background-color: rgba(103, 145, 135, 0.7);
-    width: 90%;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-
-.bg-color-block-intro-night {
-    position: relative;
-    background-color: rgba(103, 145, 135, 0.5);
-    width: 90%;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
 
 .card-title {
     margin-bottom: .75rem;
@@ -336,11 +335,10 @@ hr {
     width: 100%;
 }
 
-.row-day {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0px;
-    padding: 0px;
+.row-day-night {
+    display: block;
+    position: relative;
+    width: 100%;
 }
 
 .bg-color-block-about-us {
@@ -360,7 +358,6 @@ hr {
     padding-right: 30px;
     padding-bottom: 10px;
     padding-top: 5px;
-    margin-left: 15px;
 }
 
 .block-contact-mission p {

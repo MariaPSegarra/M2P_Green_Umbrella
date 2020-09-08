@@ -36,9 +36,15 @@ function sendMail(bookingForm) {
     return false;
 }
 
+$("form").submit(function (e) {
+    e.preventDefault(); 
+    $("form").remove();
+    $("#submitMessage").removeClass("d-none");
+});
 
-let current_datetime = new Date()
-let formatted_date = current_datetime.getDate() + "-" + (current_datetime.getMonth() + 1) + "-" + current_datetime.getFullYear()
+
+
+
 
 
 

@@ -6,6 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Get to know us - Contact us | Meet Dublin</title>
+	<meta name="description"
+		content="Book your Dublin with friendly tour guides. Don´t miss your chance to meet Dublin amongst friends with Green Umbrella">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		type="text/css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -45,7 +47,7 @@
 	</header>
 
 	<!--image architecture walk-->
-	<section class="container-image-walk1">
+	<section class="container-image-walk1" title="View of Saint Patrick´s cathedral">
 		<div class="row row-mission">
 			<div class="col-12 block-contact-mission ">
 				<h3 class="contact-heading">SEND YOUR BOOKING REQUEST</h3>
@@ -67,7 +69,8 @@
 				</div>
 			</div>
 
-			<!--contact form start-->
+			<!--bookingform start-->
+              <div id="submitMessage" class="d-none">YOUR MESSAGE HAS BEEN SENT</div>
 			<form onsubmit="return sendMail(this);">
 				<div class="form-row">
 					<div class="form-group col-md-10">
@@ -79,7 +82,7 @@
 					<div class="form-row">
 						<div class="form-group col-md-10">
 							<label for="inputEmail"></label>
-							<input type="email" name="bemail" class="form-control" id="inputEmail" placeholder="Email" required onblur="validateEmail(this);">
+							<input type="email" name="bemail" class="form-control" id="inputEmail" placeholder="Email" required>
                                     </div>
 						</div>
 						<div class="form-row">
@@ -105,7 +108,7 @@
 							<div class="form-row">
 								<div class="form-group col-md-10">
 									<label for="inputDate"></label>
-									<input type="date" placeholder="Choose date" format="dd/mm/yyyy" id="inputDate" class="form-control" name="bdate" required>
+									<input type="text" placeholder="dd/mm/yyyy" id="inputDate" class="form-control" name="bdate" required>
 							</div>
 								</div>
 
@@ -120,17 +123,17 @@
 								<button type="submit" class="btn-booking">Booking Request</button>
 							</div>
 			</form>
-		</div>
-		</div>
-		</div>
-		</div>
-		</div>
+		    </div>
+	        </div>
+        </div>
+    </div>
+</div>
 
 		<div class="card">
 			<div class="row">
 
 				<div class="card-body">
-					<h5 class="card-title">KNOW MORE BEFORE YOU BOOK</h5>
+					<h5 class="card-title">MORE BEFORE YOU BOOK</h5>
 				</div>
 			</div>
 			<div>

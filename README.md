@@ -68,7 +68,9 @@ Same both for both and one workd and the other didn't.
 I finally separated the JS funtions and put them on different files and it all worked well.
 
 * After deployment all css "broke"
-* Also I've problems rendering the maps. Even though I authorised the new deployment URL.
+* Also I've had problems rendering the maps. Even though I authorised the new deployment URL. I had to regenerate the API key and it's working now.
+
+Checking the deployed page with the Lighthouse feature of Google development tools has helped me having the project in better shape regarding SEO practices that I had overlooked before.
 
 ## Deployment
 

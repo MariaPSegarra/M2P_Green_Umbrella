@@ -3,7 +3,7 @@
 .btn-booking {
     margin-top: 30px;
     background-color: #f8b600;
-    color: #ffffff;
+    color: #000000;
     border-radius: 10px;
     border: 0;
     transition: all 0.35s ease-in-out;
@@ -15,7 +15,7 @@
 
 .btn-booking:hover {
     background-color: #f7a400;
-    color: #ffffff;
+    color: #000000;
 }
 
 .btn-booking:click {
@@ -48,7 +48,6 @@ div #map2 {
 }
 
 .card-inner-booking {
-   background-color: #59ba91; 
    color: #ffffff;
    padding: 10px;
    margin:20px;

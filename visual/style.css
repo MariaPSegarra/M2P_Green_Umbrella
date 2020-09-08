@@ -4,7 +4,7 @@ body {
     font-size: 2rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #212529;
+    color: #000000;
     text-align: center;
     height: 100%;
 }
@@ -44,12 +44,6 @@ footer {
 
 .footer-row {
     display: block!important;
-}
-
-.header-text {
-    text-align: center;
-    padding-left: 100px;
-    padding-right: 100px;
 }
 
 /*--------------------------------------------margins, paddings*/
@@ -137,6 +131,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .main-cta h1 i {
@@ -178,7 +173,8 @@ hr {
 .btn-secondary {
     margin-top: 30px;
     background-color: #f8b600;
-    color: #ffffff;
+    color: #000000;
+    font-weight: 500;
     border-radius: 10px;
     border: 0;
     transition: all 0.35s ease-in-out;
@@ -190,7 +186,6 @@ hr {
 
 .btn-secondary:hover {
     background-color: #f7a400;
-    color: #ffffff;
 }
 
 /*--------------------------------------------day page*/
@@ -254,7 +249,7 @@ hr {
     margin-bottom: .75rem;
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
-    color: #ffffff;
+    color:#000000;
     font-weight: 600;
     padding: 5px;
     background-color: #59ba91;
@@ -290,7 +285,8 @@ hr {
  margin-top: 0;
     margin-bottom: 0;
     display: inline;
-    color: #ffffff;
+      color: #000000;
+    font-weight: 500;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -304,7 +300,6 @@ hr {
 }
 
 .card-inner-block {
-   background-color: #59ba91; 
    color: #ffffff;
    padding: 10px;
 }
@@ -338,6 +333,12 @@ hr {
     width: 100%;
 }
 
+.block-contact-mission p {
+    font-size: 1.5rem;
+    line-height: 150%
+}
+
+
 .bg-color-block-about-us {
     background-color: rgba(103, 145, 135, 0.7);
     margin: 10px;
@@ -355,11 +356,6 @@ hr {
     padding-right: 30px;
     padding-bottom: 10px;
     padding-top: 5px;
-}
-
-.block-contact-mission p {
-    font-size: 1.5rem;
-    line-height: 150%
 }
 
 .container {
@@ -398,7 +394,6 @@ button {
 .btn-contact {
     margin-top: 30px;
     background-color: #f8b600;
-    color: #ffffff;
     border-radius: 10px;
     border: 0;
     transition: all 0.35s ease-in-out;
@@ -410,12 +405,15 @@ button {
 
 .btn-contact:hover {
     background-color: #f7a400;
-    color: #ffffff;
 }
 
 .btn-contact:click {
     background-color: #f7a400;
     color: #000;
+}
+
+#submitMessage {
+    color: #ffffff;
 }
 
 .form-group {
